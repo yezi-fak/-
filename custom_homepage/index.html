@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    
+    <div class="container">
+        <!-- 搜索栏 -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="搜索...">
+            <button id="searchBtn">🔍</button>
+        </div>
+
+        <!-- 时间显示 -->
+        <div class="time" id="time"></div>
+
+        <!-- 天气显示 -->
+        <div class="weather" id="weather">
+            <span id="weather-icon">☀️</span>
+            <span id="weather-info">加载中...</span>
+        </div>
+
+        <!-- 底部快捷栏 -->
+        <div class="shortcut-bar" id="shortcutBar">
+            <div class="shortcut" data-url="https://www.google.com">Google</div>
+            <div class="shortcut" data-url="https://www.youtube.com">YouTube</div>
+            <div class="shortcut" data-url="https://www.github.com">GitHub</div>
+            <div class="shortcut add-shortcut">+ 添加</div>
+        </div>
+
+        <!-- 夜间模式开关 -->
+        <div class="night-mode-toggle">
+            <label>
+                夜间模式
+                <input type="checkbox" id="nightMode">
+            </label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

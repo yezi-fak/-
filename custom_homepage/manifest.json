@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "美观实用主页",
+  "version": "1.0.0",
+  "description": "一个美观实用的浏览器主页插件",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}
